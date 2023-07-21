@@ -11,8 +11,43 @@ header{
     justify-content: center;
     align-items: center;
     gap: 15px;
+
+    height: 200px;
     
     background-color: #eeef7a;
     color: #2318a5;
     padding: 40px
+}
+
+main{
+    height: calc(100vh - 200px);
+    background-color: #7692e2;
+}
+
+.charaters{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.charater{
+    height: 200px;
+    width: 200px;
+
+    border-radius: 100%;
+    background-color: #b1d6fd;
+    border: 2px solid #2318a5;
+    overflow: hidden;
+}
+
+.charater:hover{
+    background-color: #83b9f3;
+}
+
+.charater img{
+    width: 100%;
 }
