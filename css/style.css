@@ -5,3 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+    background-color: #eeef7a;
+    color: #2318a5;
+    padding: 40px
+}
